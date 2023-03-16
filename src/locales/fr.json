@@ -1,0 +1,19 @@
+{
+    "featuresInfo": "Accès illimitéà toutes les fonctionnalités",
+    "unlimitedDocuments": "Documents illimités",
+    "countMode": "Mode décompte",
+    "textRecognition": "Reconnaissance de texte (OCR)",
+    "firstPeriod": "Tous les mois",
+    "firstPeriodPrice": "<strong class='plan-card__full-price'>{{price}}</strong>par mois",
+    "firstRibbonText": "3 JOURS GRATUITS",
+    "monthlyPrice": "{{price}}/mois",
+    "secondPeriod": "Tous les ans",
+    "discount": "-83%",
+    "secondPeriodPrice": "<strong class='plan-card__full-price'>{{price}}</strong>par an",
+    "secondRibbonText": "LE PLUS POPULAIRE",
+    "btn": "Continuer",
+    "footerInfo": "Renouvelable automatiquement. Annulez à tout moment.",
+    "terms": "Conditions d'utilisation",
+    "restore": "Restaurer",
+    "privacy": "Politique de confidentialité"
+}

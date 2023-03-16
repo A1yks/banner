@@ -1,0 +1,67 @@
+@use 'fonts';
+@use 'btn';
+@use 'banner';
+@use 'header';
+@use 'features';
+@use 'plansSelection';
+@use 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+
+    @media only screen and (min-height: 860px) {
+        font-size: 10.5px;
+    }
+
+    @media only screen and (min-height: 900px) {
+        font-size: 11px;
+    }
+
+    @media only screen and (max-height: 800px) {
+        font-size: 9.5px;
+    }
+
+    @media only screen and (max-height: 780px) and (min-width: 400px) {
+        font-size: 9px;
+    }
+
+    @media only screen and (max-height: 780px) {
+        font-size: 9px;
+    }
+
+    @media only screen and (max-height: 740px) {
+        font-size: 8.5px;
+    }
+
+    @media only screen and (max-height: 680px) {
+        font-size: 8px;
+    }
+
+    @media only screen and (max-height: 640px) {
+        font-size: 7.2px;
+    }
+
+    @media only screen and (max-height: 600px) {
+        font-size: 6.5px;
+    }
+}
+
+body {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

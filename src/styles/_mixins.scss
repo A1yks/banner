@@ -1,0 +1,8 @@
+@mixin hoverEffect($defaultOpcity, $hoverOpacity: 0.8, $color: #fff) {
+    &:hover {
+        opacity: $hoverOpacity;
+    }
+
+    color: $color;
+    opacity: $defaultOpcity;
+}

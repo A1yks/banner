@@ -1,0 +1,19 @@
+{
+    "featuresInfo": "Неограниченный доступко всем функциям",
+    "unlimitedDocuments": "Любое количество документов",
+    "countMode": "Режим «Подсчет»",
+    "textRecognition": "Распознавание текста (OCR)",
+    "firstPeriod": "1 месяц",
+    "firstPeriodPrice": "<strong class='plan-card__full-price'>{{price}}</strong>в месяц",
+    "firstRibbonText": "3 ДНЯ БЕСПЛАТНО",
+    "monthlyPrice": "{{price}}/месяц",
+    "secondPeriod": "1 ГОД",
+    "discount": "-83%",
+    "secondPeriodPrice": "<strong class='plan-card__full-price'>{{price}}</strong>в год",
+    "secondRibbonText": "ПОПУЛЯРНОЕ",
+    "btn": "Продолжить",
+    "footerInfo": "Автопродление. Отмена в любое время.",
+    "terms": "Условия использования",
+    "restore": "Восстановить",
+    "privacy": "Конфиденциальность"
+}

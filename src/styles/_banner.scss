@@ -1,0 +1,122 @@
+.banner {
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    background-position: 0 25%;
+    background-repeat: no-repeat;
+    background-image: url(../assets/images/background.png);
+    background-size: cover;
+    padding: 4rem 2rem 3.8rem 2rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+
+    .features {
+        margin-top: clamp(13rem, 19vh, 22rem);
+    }
+
+    .plans-selection {
+        margin-top: clamp(2rem, 5vh, 6rem);
+    }
+
+    .footer {
+        margin-top: auto;
+        padding: 1.6rem 0.6rem;
+    }
+
+    &--ru {
+        .features__info {
+            font-size: 2.8rem;
+        }
+    }
+
+    &--es,
+    &--zh {
+        .features__info {
+            font-size: 3rem;
+        }
+    }
+
+    &--fr,
+    &--nl {
+        .features__info {
+            font-size: 2.8rem;
+        }
+    }
+
+    &--ru,
+    &--fr {
+        .plan-card__ribbon-text {
+            font-size: 1.2rem;
+        }
+
+        .features__list-item {
+            font-size: 1.4rem;
+        }
+
+        .btn {
+            padding-top: 1.4rem;
+            padding-bottom: 1.4rem;
+        }
+    }
+
+    &--ja {
+        .features {
+            &__info {
+                font-size: 2.8rem;
+            }
+
+            &__list {
+                gap: 0.4rem;
+            }
+
+            &__list-item {
+                font-size: 1.5rem;
+            }
+        }
+
+        .btn {
+            padding-top: 1.4rem;
+            padding-bottom: 1.4rem;
+        }
+    }
+
+    @media screen and (max-height: 780px) {
+        &--zh {
+            .features__list-item {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    @media screen and (max-height: 720px) {
+        &--fr {
+            .features__list-item {
+                font-size: 1.7rem;
+            }
+
+            .btn {
+                padding-top: 1.8rem;
+                padding-bottom: 1.8rem;
+            }
+
+            .footer {
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    @media screen and (min-height: 850px) {
+        .footer {
+            font-size: 1.2rem;
+        }
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        background-image: url(../assets/images/background@2x.png);
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 3dppx) {
+        background-image: url(../assets/images/background@3x.png);
+    }
+}

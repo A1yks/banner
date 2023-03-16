@@ -1,0 +1,22 @@
+@import '_mixins.scss';
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__close {
+        @include hoverEffect(0.4);
+        width: 2.4rem;
+        height: 2.4rem;
+        background: url(../assets/images/close.svg) 0 0 no-repeat;
+        background-size: contain;
+    }
+
+    &__restore {
+        @include hoverEffect(0.6);
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-family: 'SF Pro Text';
+    }
+}

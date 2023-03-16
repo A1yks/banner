@@ -1,0 +1,18 @@
+@import '_planCard.scss';
+
+.plans-selection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__plans {
+        display: flex;
+        align-items: center;
+        gap: 2.1rem;
+    }
+
+    .btn {
+        width: 28rem;
+        margin-top: 2.4rem;
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "featuresInfo": "Onbeperkte toegangtot alle functies",
+    "unlimitedDocuments": "Onbeperkt aantal documenten",
+    "countMode": "Aantal modus",
+    "textRecognition": "Gratis tekstherkenning (OCR)",
+    "firstPeriod": "Maandelijks",
+    "firstPeriodPrice": "<strong class='plan-card__full-price'>{{price}}</strong>per maand",
+    "firstRibbonText": "3 DAGEN GRATIS",
+    "monthlyPrice": "{{price}}/maand",
+    "secondPeriod": "Jaarlijks",
+    "discount": "-83%",
+    "secondPeriodPrice": "<strong class='plan-card__full-price'>{{price}}</strong>per jaar",
+    "secondRibbonText": "MEEST POPULAIR",
+    "btn": "Doorgaan",
+    "footerInfo": "Automatisch verlengbaar. Altijd annuleren.",
+    "terms": "Gebruiksvoorwaarden",
+    "restore": "Herstellen",
+    "privacy": "Privacybeleid"
+}

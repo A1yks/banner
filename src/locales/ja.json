@@ -1,0 +1,19 @@
+{
+    "featuresInfo": "全ての機能へ無制限アクセス",
+    "unlimitedDocuments": "無制限のドキュメント",
+    "countMode": "カウントモード",
+    "textRecognition": "テキスト認識 (OCR)",
+    "firstPeriod": "月次",
+    "firstPeriodPrice": "<strong class='plan-card__full-price'>{{price}}</strong>/月",
+    "firstRibbonText": "3日間無料",
+    "monthlyPrice": "{{price}}/か月",
+    "secondPeriod": "年次",
+    "discount": "-83%",
+    "secondPeriodPrice": "<strong class='plan-card__full-price'>{{price}}</strong>/年",
+    "secondRibbonText": "一番人気",
+    "btn": "続行する",
+    "footerInfo": "自動更新可能。いつでもキャンセル可能。",
+    "terms": "利用規約",
+    "restore": "復元する",
+    "privacy": "プライバシーポリシー"
+}

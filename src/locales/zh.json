@@ -1,0 +1,19 @@
+{
+    "featuresInfo": "无限制使用所有功能",
+    "unlimitedDocuments": "文档无限制",
+    "countMode": "计数模式",
+    "textRecognition": "文本识别（OCR）",
+    "firstPeriod": "每月",
+    "firstPeriodPrice": "<strong class='plan-card__full-price'>{{price}}</strong>每月",
+    "firstRibbonText": "3日免费",
+    "monthlyPrice": "{{price}}/月",
+    "secondPeriod": "包年",
+    "discount": "-83%",
+    "secondPeriodPrice": "<strong class='plan-card__full-price'>{{price}}</strong>每年",
+    "secondRibbonText": "最热门",
+    "btn": "继续",
+    "footerInfo": "自动续订。可随时取消。",
+    "terms": "使用条款",
+    "restore": "恢复",
+    "privacy": "隐私政策"
+}
